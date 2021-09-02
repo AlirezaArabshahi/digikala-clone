@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "iranyekan";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("~assets/fonts/iranyekan.woff") format("truetype");
+}
+* {
+  font-family: "iranyekan";
+}
