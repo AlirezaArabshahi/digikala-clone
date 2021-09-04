@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "iranyekan";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("~assets/fonts/iranyekan.woff") format("woff");
+}
+* {
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-family: "iranyekan";
+  font-weight: 400;
+  font-size: 14px;
+  direction: rtl;
+}
+body {
+  font-family: "iranyekan";
+  color: #515151;
+  background: #f5f5f5;
+}
