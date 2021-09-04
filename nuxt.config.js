@@ -16,7 +16,7 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     // CSS file in the project
-    "~/assets/main.css"
+    "~/assets/css/main.css"
   ],
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -34,7 +34,18 @@ export default {
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    /*
+     ** You can extend webpack config here
+     */
+    loaders: {
+      cssModules: {
+        modules: {
+          localIdentName: "[name]_[local]_[hash:base64:4]"
+        }
+      }
+    }
+  },
   server: {
     port: 8080 // default: 3000
   },
