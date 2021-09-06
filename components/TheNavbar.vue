@@ -1,12 +1,10 @@
 <template>
   <nav :class="$style.nav">
     <ul :class="$style['nav-category-list']">
-      <!-- <li>
-        <mega-menu />
-      </li> -->
       <li>
-        <NuxtLink to="/">دسته‌بندی کالاها</NuxtLink>
+        <MegaMenu />
       </li>
+
       <li>
         <NuxtLink to="/">سوپر مارکت</NuxtLink>
       </li>
@@ -32,21 +30,17 @@
 <style module>
 .nav {
   background-color: white;
-  /* font-size: 3rem; */
   box-shadow: 0 2px 4px 0 rgba(113, 113, 113, 5%);
 }
 .nav-category-list {
   display: flex;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 .nav-category-list > li {
-  display: block;
+  /* display: block; */
   list-style: none;
   padding-left: 1rem;
-  font-size: 0.857rem;
+  font-size: 1rem;
 }
-
 .nav-category-list > li > a {
   color: #616161;
   display: block;
