@@ -15,6 +15,8 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    // SCSS file in the project
+    "~/assets/css/main.scss",
     // CSS file in the project
     "~/assets/css/main.css"
   ],
