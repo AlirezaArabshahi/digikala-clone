@@ -41,7 +41,7 @@
   padding-left: 1rem;
   font-size: 1rem;
 }
-.nav-category-list > li > a {
+.nav-category-list > li a {
   color: #616161;
   display: block;
   padding: 7px 12px 8px;

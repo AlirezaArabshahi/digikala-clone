@@ -8,6 +8,8 @@
       sapiente?
     </div>
   </div>
+
+  <!-- <NuxtLink to="/">دسته‌بندی کالاها</NuxtLink> -->
 </template>
 
 <script>
@@ -24,11 +26,5 @@ export default {};
   background-color: gray;
   width: 600px;
   /* margin-top: 0.1rem; */
-}
-a {
-  color: #616161;
-  display: block;
-  padding: 7px 12px 8px;
-  text-decoration: none;
 }
 </style>
